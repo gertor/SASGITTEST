@@ -1,4 +1,4 @@
 data test;
- set sashelp.class; 
- where sex='F';
+ set sashelp.cars; 
+ where = Origin='Asia';
 run;
